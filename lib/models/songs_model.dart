@@ -43,11 +43,11 @@ class SongModel {
     ),
     SongModel(
       id: 's3',
-      title: 'Lối Nhỏ',
+      title: 'Vị Nhà',
       artistId: 'a2',
       albumId: 'al2',
       imageUrl: 'assets/images/songs/loinho.jpg',
-      audioUrl: 'assets/audios/loinho.mp3',
+      audioUrl: 'assets/audios/vinha.mp3',
       duration: Duration(minutes: 4, seconds: 2),
       country: 'Việt Nam',
     ),

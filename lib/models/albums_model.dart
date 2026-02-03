@@ -17,16 +17,16 @@ class AlbumModel {
   static List<AlbumModel> mockAlbums = [
     AlbumModel(
       id: 'al1',
-      title: 'Chúng Ta',
+      title: 'Sky Tour',
       artistId: 'a1',
-      imageUrl: 'assets/images/albums/chungta.jpg',
+      imageUrl: 'assets/images/albums/skytour.jpg',
       year: 2020,
     ),
     AlbumModel(
       id: 'al2',
-      title: 'Lối Nhỏ',
+      title: 'Album Đen Vâu',
       artistId: 'a2',
-      imageUrl: 'assets/images/albums/loinho.jpg',
+      imageUrl: 'assets/images/albums/albdenvau.jpg',
       year: 2019,
     ),
     AlbumModel(
