@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(title: const Text('Trang chủ'), centerTitle: true),
       body: const Center(
         child: Text(
-          'HOME PAGE',
+          'HOME PAGE APP MusSicBox',
           style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
         ),
       ),

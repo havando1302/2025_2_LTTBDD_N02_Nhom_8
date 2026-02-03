@@ -15,8 +15,6 @@ class HomeCenter extends StatefulWidget {
 
 class _HomeCenterState extends State<HomeCenter> {
   int _selectedIndex = 0;
-
-  /// ===== LIST PAGE =====
   final List<Widget> _pages = const [
     HomePage(),
     PageLibrary(),
@@ -45,6 +43,7 @@ class _HomeCenterState extends State<HomeCenter> {
           selectedItemColor: Color(MyColor.pr4),
           unselectedItemColor: Color(MyColor.pr5),
           backgroundColor: Color(MyColor.white),
+          iconSize: 32,
           items: [
             BottomNavigationBarItem(
               icon: ImageIcon(AssetImage('assets/icons/home.png')),
@@ -52,6 +51,7 @@ class _HomeCenterState extends State<HomeCenter> {
             ),
             BottomNavigationBarItem(
               icon: ImageIcon(AssetImage('assets/icons/library.png')),
+
               label: t.library,
             ),
             BottomNavigationBarItem(
