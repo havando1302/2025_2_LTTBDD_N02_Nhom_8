@@ -41,8 +41,8 @@ class _HomeCenterState extends State<HomeCenter> {
           onTap: _onItemTapped,
           //thiết lập màu cho navbar
           selectedItemColor: Color(MyColor.pr4),
-          unselectedItemColor: Color(MyColor.pr5),
-          backgroundColor: Color(MyColor.white),
+          unselectedItemColor: Color(MyColor.white),
+          backgroundColor: Color(MyColor.black),
           iconSize: 32,
           items: [
             BottomNavigationBarItem(

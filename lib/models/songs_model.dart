@@ -54,11 +54,21 @@ class SongModel {
     SongModel(
       id: 's4',
       title: 'Blinding Lights',
-      artistId: 'a99',
-      albumId: 'al99',
+      artistId: 'a4',
+      albumId: 'al4',
       imageUrl: 'assets/images/songs/blindinglights.jpg',
       audioUrl: 'assets/audios/blindinglights.mp3',
       duration: Duration(minutes: 3, seconds: 22),
+      country: 'US',
+    ),
+    SongModel(
+      id: 's5',
+      title: 'Until You',
+      artistId: 'a5',
+      albumId: 'al4',
+      imageUrl: 'assets/images/songs/untilyou.jpg',
+      audioUrl: 'assets/audios/untilyou.mp3',
+      duration: Duration(minutes: 2, seconds: 53),
       country: 'US',
     ),
   ];

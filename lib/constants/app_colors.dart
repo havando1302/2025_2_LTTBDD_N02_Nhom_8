@@ -1,24 +1,24 @@
 class MyColor {
   // Màu cơ bản
   static const int white = 0xFFFFFFFF;
-  static const int black = 0xFF000000;
+  static const int black = 0xFF121212; // Đen nền Spotify
 
-  // Primary (xanh chủ đạo)
-  static const int pr1 = 0xFFE3F2FD; // Xanh rất nhạt (background)
-  static const int pr2 = 0xFFBBDEFB; // Xanh nhạt
-  static const int pr3 = 0xFF64B5F6; // Xanh trung
-  static const int pr4 = 0xFF2196F3; // Xanh dương chính
-  static const int pr5 = 0xFF1565C0; // Xanh đậm
-  static const int pr6 = 0xFF0D47A1; // Xanh navy
+  // Primary (xanh lá chủ đạo)
+  static const int pr1 = 0xFF0F1F17; // Xanh đen rất đậm (background)
+  static const int pr2 = 0xFF1DB954; // Xanh lá Spotify (main)
+  static const int pr3 = 0xFF1E1E1E; // Nền card
+  static const int pr4 = 0xFF1DB954; // Xanh lá nhấn
+  static const int pr5 = 0xFF14833B; // Xanh lá đậm
+  static const int pr6 = 0xFF0A3D1E; // Xanh lá tối
 
-  // Secondary (đen – xám – xanh đậm)
-  static const int se1 = 0xFFF5F5F5; // Xám rất nhạt
-  static const int se2 = 0xFF90CAF9; // Xanh phụ
-  static const int se3 = 0xFF1E88E5; // Xanh đậm
-  static const int se4 = 0xFF263238; // Đen xanh (dark mode)
-  static const int se5 = 0xFF000000; // Đen thuần
+  // Secondary (đen – xám)
+  static const int se1 = 0xFF121212; // Nền chính
+  static const int se2 = 0xFF181818; // Card / section
+  static const int se3 = 0xFF282828; // Card hover
+  static const int se4 = 0xFFB3B3B3; // Text phụ
+  static const int se5 = 0xFFFFFFFF; // Text chính
 
   // Trung tính & cảnh báo
-  static const int grey = 0xFF9E9E9E;
-  static const int red = 0xFFD32F2F;
+  static const int grey = 0xFFB3B3B3; // Xám Spotify
+  static const int red = 0xFFE53935;
 }

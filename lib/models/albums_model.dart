@@ -36,5 +36,12 @@ class AlbumModel {
       imageUrl: 'assets/images/albums/tam9.jpg',
       year: 2017,
     ),
+    AlbumModel(
+      id: 'al4',
+      title: 'TOP Nhạc US',
+      artistId: 'various',
+      imageUrl: 'assets/images/albums/topus.jpg',
+      year: 2017,
+    ),
   ];
 }

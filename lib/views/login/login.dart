@@ -63,7 +63,6 @@ class _LoginPageState extends State<LoginPage> {
                         color: Color(MyColor.se5),
                       ),
                     ),
-
                     const SizedBox(height: 6),
 
                     Text(
@@ -77,7 +76,13 @@ class _LoginPageState extends State<LoginPage> {
                     const SizedBox(height: 32),
                     Align(
                       alignment: Alignment.centerLeft,
-                      child: Text(t.email),
+                      child: Text(
+                        t.email,
+                        style: const TextStyle(
+                          color: Color(MyColor.white),
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
                     ),
                     const SizedBox(height: 6),
                     TextField(
@@ -99,7 +104,13 @@ class _LoginPageState extends State<LoginPage> {
                     const SizedBox(height: 16),
                     Align(
                       alignment: Alignment.centerLeft,
-                      child: Text(t.password),
+                      child: Text(
+                        t.password,
+                        style: const TextStyle(
+                          color: Color(MyColor.white),
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
                     ),
                     const SizedBox(height: 6),
                     TextField(
@@ -211,7 +222,10 @@ class _LoginPageState extends State<LoginPage> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text(t.noAccount),
+                        Text(
+                          t.noAccount,
+                          style: TextStyle(color: Color(MyColor.grey)),
+                        ),
                         Text(
                           t.signUp,
                           style: TextStyle(
@@ -272,6 +286,14 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   void _showSnack(String msg) {
-    ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(msg)));
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(
+          msg,
+          style: TextStyle(color: Color(MyColor.black), fontSize: 24),
+        ),
+        backgroundColor: Color(MyColor.pr4),
+      ),
+    );
   }
 }

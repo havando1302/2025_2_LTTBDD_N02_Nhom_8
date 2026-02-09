@@ -12,18 +12,18 @@ class UserModel {
   });
 
   //dữ liệu mẫu tài khoản đăng nhập
-  static List<UserModel> mockUsers = [
+  static List<UserModel> modelUsers = [
     UserModel(
       id: '1',
-      email: 'admin@gmail.com',
+      email: 'quangtho@gmail.com',
       password: '123456',
-      name: 'Admin',
+      name: 'Quang Thọ',
     ),
     UserModel(
       id: '2',
-      email: 'user@gmail.com',
+      email: 'doha@gmail.com',
       password: '123456',
-      name: 'User',
+      name: 'Hà Đô',
     ),
   ];
 }
